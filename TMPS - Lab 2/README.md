@@ -45,7 +45,7 @@ Composite is used in Domain. It is used in Elemental class for the user to be ab
     
  * Flyweight
  
-  Flyweight is used in Abstraction. NewCastle, Domain.Castle, Domain.CastleFactory classes are used for creation of the castle for heroes and their specification. A castle can be a defender or an attacker. 
+  Flyweight is used in Abstraction. NewCastle, Domain.Castle, Domain.CastleFactory classes are used for creation of the castle for heroes and their specification. A castle can be a defender or an attacker. For example I have a class Castle, which implements an interface of a NewCastle. Afterwards, I am given two parameters, the castle itself and its side. So each time I create a castle, I'm giving it the name, like HumanCastle and the side, for example attacker.
     
     public class Castle implements NewCastle {
         private static String castle;
@@ -79,7 +79,7 @@ Composite is used in Domain. It is used in Elemental class for the user to be ab
     
 * Adapter
 
-Adapter is used in Abstraction.AdvancedTypesDwarves, AllTypes.Archer, AllTypes.Rider, Armys.Dwarves, Domain.Adapter, Domain.TypesAdapter classes are used for an easier creation and usage of archer/rider types for a hero. 
+Adapter is used in Abstraction.AdvancedTypesDwarves, AllTypes.Archer, AllTypes.Rider, Armys.Dwarves, Domain.Adapter, Domain.TypesAdapter classes are used for an easier creation and usage of archer/rider types for a hero. So it doesnt matter what type of hero it is, dwarf or human, I can easily divide them into archers and riders.
   
     public class Adapter implements Types{
         TypesAdapter typesAdapter;
