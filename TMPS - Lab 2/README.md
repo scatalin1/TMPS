@@ -79,7 +79,7 @@ Composite is used in Domain. It is used in Elemental class for the user to be ab
     
 * Adapter
 
-Adapter is used in Abstraction.AdvancedTypesDwarves, AllTypes.Archer, AllTypes.Rider, Armys.Dwarves, Domain.Adapter, Domain.TypesAdapter classes are used for an easier creation and usage of archer/rider types for a hero. So it doesnt matter what type of hero it is, dwarf or human, I can easily divide them into archers and riders.
+Adapter is used in Abstraction.AdvancedTypesDwarves, AllTypes.Archer, AllTypes.Rider, Armys.Dwarves, Domain.Adapter, Domain.TypesAdapter classes are used for an easier creation and usage of archer/rider types for a hero. So what happens here is that the hero is added to his type of dwarf or human its advanced type of archer or rider, for exampla. 
   
     public class Adapter implements Types{
         TypesAdapter typesAdapter;
