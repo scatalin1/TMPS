@@ -13,6 +13,7 @@ I have researched the Creational Design Patterns:
 
 ## Implementation
  * Singleton 
+ Singleton helps me create the instance of dwarves and human army. which means that they are created only once and I am working with these single classes of armies.
  1.
  
         class Dwarves implements TypeArmy {
