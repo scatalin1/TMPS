@@ -18,7 +18,7 @@ After analyzing each of them I decided to implement the following Structural DP 
 ## Implementation
  * Composite
  
-Composite is used in Domain. It is used in Elemental class for the user to be able to create the specified elementals under the Elementals for a hero. 
+Composite is used in Domain. It is used in Elemental class for the user to be able to create the specified elementals under the Elementals for a hero. So I have an elemental which devides into fire, water, earth and air. Then each of these elementals divide in maximal elements, where fire evolves in lava and scorch.  
 
     public class Elemental {
         private static String name;
