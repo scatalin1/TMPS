@@ -61,7 +61,7 @@ I have researched the Creational Design Patterns:
       }
 
 * Factory Method and Abstract Factory
-      for example if I want to create a dwarf army, I call type army and tell it to create a class named dwarves. and same with the type of soldiers.
+      for example if I want to create a dwarf army, I call type army and I am getting the singleton instances of dwarves that I have previously created and add them to the corresponding dwarf army. and same with the type of soldiers.
       
         public final class Army {
     
