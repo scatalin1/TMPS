@@ -13,7 +13,7 @@ I have researched the Creational Design Patterns:
 
 ## Implementation
  * Singleton 
-  helps me create the instance of dwarves and humans. which means that they are created only once and I can access it from anywhere in my program whenever I need.
+  helps me create the instance of dwarves and humans. which means that they are created only once, when requested, and I can access it from anywhere in my program whenever I need.
  1.
  
         class Dwarves implements TypeArmy {
