@@ -42,7 +42,7 @@ I have researched the Creational Design Patterns:
              }
              return humans;
          }
-* Prototype
+* Prototype pattern I used for my elementals class. I have created the elemental class which has a method that gives it a name and every time I want to add a new elementa, I just clone the original elemental and I give him a new name.  
   
         public class Elemental {
       private static String name;
